@@ -1,0 +1,47 @@
+{
+  "v": 3,
+  "createdOnFiles": { "v": 1, "at": "2026-09-30T12:00:00Z" },
+  "title": "Billy App Screens",
+  "launch": { "view": "canvas" },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": { "x": 0, "y": 0, "w": 390, "h": 844, "title": "Scan", "is_interactive": true },
+    "Bills.dc.html": { "x": 470, "y": 0, "w": 390, "h": 844, "title": "Bills · active", "is_interactive": true },
+    "BillsClaimed.dc.html": { "x": 940, "y": 0, "w": 390, "h": 844, "title": "Bills · scrolled to Claimed", "is_interactive": true },
+    "Friends.dc.html": { "x": 1410, "y": 0, "w": 390, "h": 844, "title": "Friends", "is_interactive": true },
+    "Memories.dc.html": { "x": 1880, "y": 0, "w": 390, "h": 844, "title": "Memories", "is_interactive": true },
+    "Profile.dc.html": { "x": 2350, "y": 0, "w": 390, "h": 844, "title": "Profile", "is_interactive": true }
+  },
+  "order": [
+    "Main.dc.html",
+    "Bills.dc.html",
+    "BillsClaimed.dc.html",
+    "Friends.dc.html",
+    "Memories.dc.html",
+    "Profile.dc.html"
+  ],
+  "notes": {
+    "t1": {
+      "x": 0,
+      "y": -300,
+      "text": "Billy — the five tabs as they are built today",
+      "kind": "title1",
+      "maxW": 2740
+    },
+    "n1": {
+      "x": 0,
+      "y": 924,
+      "w": 660,
+      "text": "Scan, Friends and Memories all render the same shared PlaceholderScreen — one white card, a different emoji and note each. Bills is the only fully built screen, shown twice because its Claimed half sits behind the running-tab bar at scroll-top. Profile is drawn signed-in; personal fields are left as [placeholders].",
+      "fill": "gray"
+    },
+    "n2": {
+      "x": 740,
+      "y": 924,
+      "w": 520,
+      "text": "Tap any tab in Play mode — the bottom bar links the artboards together, so the five tabs navigate for real.",
+      "fill": "teal"
+    }
+  },
+  "designSystems": []
+}
